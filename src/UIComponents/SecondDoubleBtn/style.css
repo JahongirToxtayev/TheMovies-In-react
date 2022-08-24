@@ -1,0 +1,10 @@
+.SecondBtn{
+    width: 60%;
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    color: #032541;
+    border-radius: 30px;
+    background-color: white;
+}

@@ -1,0 +1,94 @@
+.Navbar{
+    z-index: 3;
+    padding: 0px 80px;
+    min-height: 70px;
+    background-color: #032541;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.eng-btn{
+    border: 1px solid white !important;
+}
+.search-icon{
+    color: #01B4E4;
+}
+.movies-hover_div{
+    position: relative;
+}
+.movies-hover{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 140px;
+    min-height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    top: 40px;
+    left: 0;
+
+}
+.movies-link{
+    border-radius: 20px !important;
+}
+.movies-hover .movies-link:hover{
+    color: #032541;
+    background-color: whitesmoke;
+}
+.TV-Shows-hover_div{
+    position: relative;
+}
+.TV-Shows-hover{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 140px;
+    min-height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    top: 40px;
+    left: 20px;
+}
+.TV-Shows-hover .movies-link:hover{
+    color: #032541;
+    background-color: whitesmoke;
+}
+.cards-module_card{
+    width: 90%;
+    border: none !important;
+    border-radius: 20px !important;
+    min-height: 100%;
+}
+.cards-module_card img{
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.Nav-cards_title{
+    margin: 80px 0px 40px 0px;
+}
+.popular-people-hover_div{
+    position: relative;
+}
+.popular-people-hover{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 140px;
+    min-height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    top: 40px;
+    left: 20px;
+}
+.popular-people-hover .movies-link:hover{
+    color: #032541;
+    background-color: whitesmoke;
+}
+

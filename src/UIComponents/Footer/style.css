@@ -1,0 +1,22 @@
+.footer-div{
+    background-color: #032541;
+    width: 100%;
+    min-height: 300px;
+    margin: 0;
+    padding: 80px 150px 80px 50px;
+}
+.footer-image{
+    width: 150px;
+    min-height: 150px;
+}
+.community-btn{
+    width: 200px;
+    padding: 10px;
+    min-height: 30px;
+    text-transform: uppercase;
+    color: #1BD2B0;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+}

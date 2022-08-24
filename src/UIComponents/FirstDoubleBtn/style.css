@@ -1,0 +1,9 @@
+.FirstBtn{
+    width: 35%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1BD2B0;
+    border-radius: 30px ;
+    border: none;
+    background-color: #032541;
+}
