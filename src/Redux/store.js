@@ -3,9 +3,10 @@ import SecondReducer from "./SecondReducer"
 import {configureStore} from "@reduxjs/toolkit"
 
 const store=configureStore(
-    {reducer:Reducer,
-    secondReducer:SecondReducer
-    }
+    {reducer:{
+        firstReducer:Reducer,
+        second:SecondReducer
+    }}
 )
 
 export default store

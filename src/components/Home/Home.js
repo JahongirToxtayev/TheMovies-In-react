@@ -17,8 +17,8 @@ const Home = () => {
   const [active, setActive] = useState("")
   const [secondActive, setSecondActive] = useState("")
   const dispatch=useDispatch()
-  const source=useSelector(state=>state)
-  const secondApi=useSelector(state=>state)
+  const source=useSelector(state=>state.firstReducer)
+  const secondApi=useSelector(state=>state.second)
   const [ID, setID] = useState("")
 
   console.log(source,"reducer");

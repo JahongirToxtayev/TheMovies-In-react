@@ -11,3 +11,5 @@ switch (action.type) {
         
 }
 }
+
+export default SecondReducer
